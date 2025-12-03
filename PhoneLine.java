@@ -85,7 +85,7 @@ public class PhoneLine {
         }
         if (_timer != null) {
             _timer.cancel();
-            _timer.purge(); // Очищаем очередь отмененных задач
+            _timer.purge(); 
             _timer = null;
         }
     }
