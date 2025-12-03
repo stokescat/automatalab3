@@ -1,3 +1,6 @@
+import java.util.Timer;
+import java.util.TimerTask;
+
 public class PhoneLine {
     private PhoneLineContext _fsm;
 
@@ -76,10 +79,15 @@ public class PhoneLine {
     }
 
     public void stopTimer() {
-        _timerTask.cancel();
-        _timerTask = null;
-        _timer.cancel();
-        _timer = null;
+        if (_timerTask != null) {
+            _timerTask.cancel();
+            _timerTask = null;
+        }
+        if (_timer != null) {
+            _timer.cancel();
+            _timer.purge(); // Очищаем очередь отмененных задач
+            _timer = null;
+        }
     }
 
 }
