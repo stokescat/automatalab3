@@ -1,0 +1,6 @@
+;Idle;Warning;Conversation;Ready;Ready_1;Ready_2
+onHook;Idle/null;Idle/disconnectedLine;Idle/disconnectedLine;Idle/disconnectedLine;Idle/disconnectedLine;Idle/disconnectedLine
+offHook;Ready/soundDialTone;Warning/null;Conversation/null;Ready/null;Ready/null;Ready/null
+validNumber;Idle/null;Warning/slowBusyTone;Conversation/continues;Conversation/findConnection;Conversation/findConnection;Conversation/findConnection
+invalidNumber;Idle/null;Warning/slowBusyTone;Conversation/continues;Warning/PlayMessage;Warning/PlayMessage;Warning/PlayMessage
+tick;Idle/tick;Warning/tick;Conversation/tick;Ready_1/tick;Ready_2/tick;Warning/tick

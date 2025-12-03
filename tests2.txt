@@ -1,0 +1,52 @@
+offHook/soundDialTone onHook/null
+offHook/soundDialTone onHook/disconnectedLine onHook/null
+offHook/soundDialTone offHook/null onHook/disconnectedLine
+offHook/soundDialTone offHook/null validNumber/findConnection
+offHook/soundDialTone offHook/null tick/tick validNumber/findConnection
+offHook/soundDialTone offHook/null tick/tick tick/tick validNumber/findConnection
+offHook/soundDialTone validNumber/findConnection onHook/disconnectedLine onHook/null
+offHook/soundDialTone validNumber/findConnection offHook/null onHook/disconnectedLine
+offHook/soundDialTone validNumber/findConnection offHook/null validNumber/continues
+offHook/soundDialTone validNumber/findConnection validNumber/continues onHook/disconnectedLine
+offHook/soundDialTone validNumber/findConnection validNumber/continues validNumber/continues
+offHook/soundDialTone validNumber/findConnection invalidNumber/continues onHook/disconnectedLine
+offHook/soundDialTone validNumber/findConnection invalidNumber/continues validNumber/continues
+offHook/soundDialTone validNumber/findConnection tick/tick onHook/disconnectedLine
+offHook/soundDialTone validNumber/findConnection tick/tick validNumber/continues
+offHook/soundDialTone validNumber/findConnection tick/tick tick/tick validNumber/continues
+offHook/soundDialTone invalidNumber/PlayMessage onHook/disconnectedLine onHook/null
+offHook/soundDialTone invalidNumber/PlayMessage offHook/null onHook/disconnectedLine
+offHook/soundDialTone invalidNumber/PlayMessage offHook/null validNumber/slowBusyTone
+offHook/soundDialTone invalidNumber/PlayMessage validNumber/slowBusyTone onHook/disconnectedLine
+offHook/soundDialTone invalidNumber/PlayMessage validNumber/slowBusyTone validNumber/slowBusyTone
+offHook/soundDialTone invalidNumber/PlayMessage invalidNumber/slowBusyTone onHook/disconnectedLine
+offHook/soundDialTone invalidNumber/PlayMessage invalidNumber/slowBusyTone validNumber/slowBusyTone
+offHook/soundDialTone invalidNumber/PlayMessage tick/tick onHook/disconnectedLine
+offHook/soundDialTone invalidNumber/PlayMessage tick/tick validNumber/slowBusyTone
+offHook/soundDialTone invalidNumber/PlayMessage tick/tick tick/tick validNumber/slowBusyTone
+offHook/soundDialTone tick/tick onHook/disconnectedLine onHook/null
+offHook/soundDialTone tick/tick offHook/null onHook/disconnectedLine
+offHook/soundDialTone tick/tick offHook/null validNumber/findConnection
+offHook/soundDialTone tick/tick offHook/null tick/tick validNumber/findConnection
+offHook/soundDialTone tick/tick offHook/null tick/tick tick/tick validNumber/findConnection
+offHook/soundDialTone tick/tick validNumber/findConnection onHook/disconnectedLine
+offHook/soundDialTone tick/tick validNumber/findConnection validNumber/continues
+offHook/soundDialTone tick/tick invalidNumber/PlayMessage onHook/disconnectedLine
+offHook/soundDialTone tick/tick invalidNumber/PlayMessage validNumber/slowBusyTone
+offHook/soundDialTone tick/tick tick/tick onHook/disconnectedLine onHook/null
+offHook/soundDialTone tick/tick tick/tick offHook/null onHook/disconnectedLine
+offHook/soundDialTone tick/tick tick/tick offHook/null validNumber/findConnection
+offHook/soundDialTone tick/tick tick/tick offHook/null tick/tick validNumber/findConnection
+offHook/soundDialTone tick/tick tick/tick offHook/null tick/tick tick/tick validNumber/findConnection
+offHook/soundDialTone tick/tick tick/tick validNumber/findConnection onHook/disconnectedLine
+offHook/soundDialTone tick/tick tick/tick validNumber/findConnection validNumber/continues
+offHook/soundDialTone tick/tick tick/tick invalidNumber/PlayMessage onHook/disconnectedLine
+offHook/soundDialTone tick/tick tick/tick invalidNumber/PlayMessage validNumber/slowBusyTone
+offHook/soundDialTone tick/tick tick/tick tick/tick onHook/disconnectedLine
+offHook/soundDialTone tick/tick tick/tick tick/tick validNumber/slowBusyTone
+offHook/soundDialTone tick/tick tick/tick tick/tick tick/tick validNumber/slowBusyTone
+onHook/null onHook/null
+offHook/null onHook/null
+tick/tick onHook/null
+tick/tick offHook/null
+tick/tick tick/tick offHook/null
