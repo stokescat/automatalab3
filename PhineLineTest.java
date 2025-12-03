@@ -37,14 +37,14 @@ public void TestCase4() {
 @Test
 public void TestCase5() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(100); } catch (Exception ex) {}
+    try {Thread.sleep(101); } catch (Exception ex) {}
     assertEquals(p.validNumber(), "findConnection");
 }
 
 @Test
 public void TestCase6() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(200); } catch (Exception ex) {}
+    try {Thread.sleep(201); } catch (Exception ex) {}
     assertEquals(p.validNumber(), "findConnection");
 }
 
@@ -105,7 +105,7 @@ public void TestCase13() {
 public void TestCase14() {
     assertEquals(p.offHook(), "soundDialTone");
     assertEquals(p.validNumber(), "findConnection");
-    try {Thread.sleep(100); } catch (Exception ex) {}
+    try {Thread.sleep(101); } catch (Exception ex) {}
     assertEquals(p.onHook(), "disconnectedLine");
 }
 
@@ -113,7 +113,7 @@ public void TestCase14() {
 public void TestCase15() {
     assertEquals(p.offHook(), "soundDialTone");
     assertEquals(p.validNumber(), "findConnection");
-    try {Thread.sleep(100); } catch (Exception ex) {}
+    try {Thread.sleep(101); } catch (Exception ex) {}
     assertEquals(p.validNumber(), "continues");
 }
 
@@ -121,7 +121,7 @@ public void TestCase15() {
 public void TestCase16() {
     assertEquals(p.offHook(), "soundDialTone");
     assertEquals(p.validNumber(), "findConnection");
-    try {Thread.sleep(200); } catch (Exception ex) {}
+    try {Thread.sleep(201); } catch (Exception ex) {}
     assertEquals(p.validNumber(), "continues");
 }
 
@@ -182,7 +182,7 @@ public void TestCase23() {
 public void TestCase24() {
     assertEquals(p.offHook(), "soundDialTone");
     assertEquals(p.invalidNumber(), "PlayMessage");
-    try {Thread.sleep(100); } catch (Exception ex) {}
+    try {Thread.sleep(101); } catch (Exception ex) {}
     assertEquals(p.onHook(), "disconnectedLine");
 }
 
@@ -190,7 +190,7 @@ public void TestCase24() {
 public void TestCase25() {
     assertEquals(p.offHook(), "soundDialTone");
     assertEquals(p.invalidNumber(), "PlayMessage");
-    try {Thread.sleep(100); } catch (Exception ex) {}
+    try {Thread.sleep(101); } catch (Exception ex) {}
     assertEquals(p.validNumber(), "slowBusyTone");
 }
 
@@ -198,49 +198,49 @@ public void TestCase25() {
 public void TestCase26() {
     assertEquals(p.offHook(), "soundDialTone");
     assertEquals(p.invalidNumber(), "PlayMessage");
-    try {Thread.sleep(200); } catch (Exception ex) {}
+    try {Thread.sleep(201); } catch (Exception ex) {}
     assertEquals(p.validNumber(), "slowBusyTone");
 }
 
 @Test
 public void TestCase27() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(100); } catch (Exception ex) {}
+    try {Thread.sleep(101); } catch (Exception ex) {}
     assertEquals(p.onHook(), "disconnectedLine");
 }
 
 @Test
 public void TestCase28() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(100); } catch (Exception ex) {}
+    try {Thread.sleep(101); } catch (Exception ex) {}
     assertEquals(p.onHook(), "disconnectedLine");
 }
 
 @Test
 public void TestCase29() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(100); } catch (Exception ex) {}
+    try {Thread.sleep(101); } catch (Exception ex) {}
     assertEquals(p.validNumber(), "findConnection");
 }
 
 @Test
 public void TestCase30() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(200); } catch (Exception ex) {}
+    try {Thread.sleep(201); } catch (Exception ex) {}
     assertEquals(p.validNumber(), "findConnection");
 }
 
 @Test
 public void TestCase31() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(300); } catch (Exception ex) {}
+    try {Thread.sleep(301); } catch (Exception ex) {}
     assertEquals(p.validNumber(), "findConnection");
 }
 
 @Test
 public void TestCase32() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(100); } catch (Exception ex) {}
+    try {Thread.sleep(101); } catch (Exception ex) {}
     assertEquals(p.validNumber(), "findConnection");
     assertEquals(p.onHook(), "disconnectedLine");
 }
@@ -248,7 +248,7 @@ public void TestCase32() {
 @Test
 public void TestCase33() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(100); } catch (Exception ex) {}
+    try {Thread.sleep(101); } catch (Exception ex) {}
     assertEquals(p.validNumber(), "findConnection");
     assertEquals(p.validNumber(), "continues");
 }
@@ -256,7 +256,7 @@ public void TestCase33() {
 @Test
 public void TestCase34() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(100); } catch (Exception ex) {}
+    try {Thread.sleep(101); } catch (Exception ex) {}
     assertEquals(p.invalidNumber(), "PlayMessage");
     assertEquals(p.onHook(), "disconnectedLine");
 }
@@ -264,7 +264,7 @@ public void TestCase34() {
 @Test
 public void TestCase35() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(100); } catch (Exception ex) {}
+    try {Thread.sleep(101); } catch (Exception ex) {}
     assertEquals(p.invalidNumber(), "PlayMessage");
     assertEquals(p.validNumber(), "slowBusyTone");
 }
@@ -272,42 +272,42 @@ public void TestCase35() {
 @Test
 public void TestCase36() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(200); } catch (Exception ex) {}
+    try {Thread.sleep(201); } catch (Exception ex) {}
     assertEquals(p.onHook(), "disconnectedLine");
 }
 
 @Test
 public void TestCase37() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(200); } catch (Exception ex) {}
+    try {Thread.sleep(201); } catch (Exception ex) {}
     assertEquals(p.onHook(), "disconnectedLine");
 }
 
 @Test
 public void TestCase38() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(200); } catch (Exception ex) {}
+    try {Thread.sleep(201); } catch (Exception ex) {}
     assertEquals(p.validNumber(), "findConnection");
 }
 
-//@Test
-//public void TestCase39() {
-//    assertEquals(p.offHook(), "soundDialTone");
-//    try {Thread.sleep(300); } catch (Exception ex) {}
-//    assertEquals(p.validNumber(), "findConnection");
-//}
+@Test
+public void TestCase39() {
+    assertEquals(p.offHook(), "soundDialTone");
+    try {Thread.sleep(301); } catch (Exception ex) {}
+    assertEquals(p.validNumber(), "findConnection");
+}
 
-//#@Test
-//public void TestCase40() {
-//    assertEquals(p.offHook(), "soundDialTone");
-//    try {Thread.sleep(400); } catch (Exception ex) {}
-//    assertEquals(p.validNumber(), "findConnection");
-//}
+@Test
+public void TestCase40() {
+    assertEquals(p.offHook(), "soundDialTone");
+    try {Thread.sleep(401); } catch (Exception ex) {}
+    assertEquals(p.validNumber(), "findConnection");
+}
 
 @Test
 public void TestCase41() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(200); } catch (Exception ex) {}
+    try {Thread.sleep(201); } catch (Exception ex) {}
     assertEquals(p.validNumber(), "findConnection");
     assertEquals(p.onHook(), "disconnectedLine");
 }
@@ -315,7 +315,7 @@ public void TestCase41() {
 @Test
 public void TestCase42() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(200); } catch (Exception ex) {}
+    try {Thread.sleep(201); } catch (Exception ex) {}
     assertEquals(p.validNumber(), "findConnection");
     assertEquals(p.validNumber(), "continues");
 }
@@ -323,7 +323,7 @@ public void TestCase42() {
 @Test
 public void TestCase43() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(200); } catch (Exception ex) {}
+    try {Thread.sleep(201); } catch (Exception ex) {}
     assertEquals(p.invalidNumber(), "PlayMessage");
     assertEquals(p.onHook(), "disconnectedLine");
 }
@@ -331,7 +331,7 @@ public void TestCase43() {
 @Test
 public void TestCase44() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(200); } catch (Exception ex) {}
+    try {Thread.sleep(201); } catch (Exception ex) {}
     assertEquals(p.invalidNumber(), "PlayMessage");
     assertEquals(p.validNumber(), "slowBusyTone");
 }
@@ -339,21 +339,21 @@ public void TestCase44() {
 @Test
 public void TestCase45() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(300); } catch (Exception ex) {}
+    try {Thread.sleep(301); } catch (Exception ex) {}
     assertEquals(p.onHook(), "disconnectedLine");
 }
 
-//@Test
-//public void TestCase46() {
-//    assertEquals(p.offHook(), "soundDialTone");
-//    try {Thread.sleep(300); } catch (Exception ex) {}
-//    assertEquals(p.validNumber(), "slowBusyTone");
-//}
+@Test
+public void TestCase46() {
+    assertEquals(p.offHook(), "soundDialTone");
+    try {Thread.sleep(301); } catch (Exception ex) {}
+    assertEquals(p.validNumber(), "slowBusyTone");
+}
 
 @Test
 public void TestCase47() {
     assertEquals(p.offHook(), "soundDialTone");
-    try {Thread.sleep(400); } catch (Exception ex) {}
+    try {Thread.sleep(401); } catch (Exception ex) {}
     assertEquals(p.validNumber(), "slowBusyTone");
 }
 

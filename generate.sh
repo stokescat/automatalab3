@@ -39,7 +39,7 @@ while IFS= read -r line || [ -n "$line" ]; do
         else
             # Если были тики перед этим, выводим sleep
             if [ $tick_count -gt 0 ]; then
-                echo "    try {Thread.sleep($((tick_count * 100))); } catch (Exception ex) {}"
+                echo "    try {Thread.sleep($((tick_count * 100 + 1))); } catch (Exception ex) {}"
                 tick_count=0
             fi
             

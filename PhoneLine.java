@@ -85,7 +85,6 @@ public class PhoneLine {
         }
         if (_timer != null) {
             _timer.cancel();
-            _timer.purge(); 
             _timer = null;
         }
     }
